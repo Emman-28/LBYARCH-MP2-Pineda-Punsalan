@@ -56,5 +56,13 @@ double precision float representation.
 
 ---
 
+### Screenshot of Output and Correctness Check
+<img width="1436" height="759" alt="image" src="https://github.com/user-attachments/assets/bc9e0d8e-06ae-469f-b1fb-5ae34faea5ad" />
+
+---
+
+### Performance Analysis
+
+---
 ### Video Demo
 [Link here]
