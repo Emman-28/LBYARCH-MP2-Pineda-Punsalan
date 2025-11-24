@@ -63,6 +63,17 @@ double precision float representation.
 
 ### Performance Analysis
 
+Execution Time Results:
+The assembly function imgCvtGrayIntToDouble was executed 30 times for each test case to obtain the average execution time. The tests were conducted on varying image dimensions to observe how the program scales with increased data load.
+
+Image Dimension	Total Pixels	Average Execution Time	
+   10 x 10	           100	            0.000000s	         
+   100 x 100	       10,000	         0.000067s	
+  1000 x 1000	     1,000,000	         0.008833s
+
+Analysis:
+The performance tests demonstrate a clear linear growth in the average execution time, where execution times increased proportionally from 0.000067s for 10,000 pixels to 0.008833s for 1,000,000 pixels. By using specialized assembly instructions to handle the math directly on the processor, the code avoids unnecessary delays, allowing it to process even one million pixels in just a fraction of a second (about 8 nanoseconds per pixel). This stability shows that our low-level approach remains efficient and consistent regardless of how much data is processed.
+
 ---
 ### Video Demo
-[Link here]
+https://youtu.be/s0JzCR39ygo
